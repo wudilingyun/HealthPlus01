@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myhealth_test_bac"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/mymoents_title"
+        layout="@layout/include_header" />
+
+    <RelativeLayout
+        android:id="@+id/momentsheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" >
+
+        <com.vee.healthplus.widget.RoundImageView
+            android:id="@+id/mydetail"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dip"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/myhealth_users_avatar"
+            imagecontrol:border_outside_color="#eaeaea"
+            imagecontrol:border_thickness="2dp" />
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/mydetail"
+            android:text=""
+            android:lines="1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/health_plus_font_size_2" />
+
+        <ImageView
+            android:id="@+id/sex_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/textViewUsername"
+            android:background="@drawable/boy_icon" />
+
+        <TextView
+            android:id="@+id/age_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewUsername"
+            android:layout_marginTop="45dp"
+            android:text="22岁"
+            android:textColor="#55ffffff"
+            android:textSize="@dimen/health_plus_font_size_2" />
+
+        <TextView
+            android:id="@+id/weight_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/age_txt"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@+id/textViewUsername"
+            android:text="体重适中"
+            android:textColor="#55ffffff"
+            android:textSize="@dimen/health_plus_font_size_2" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/momentslist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000" 
+        android:divider="@null">
+    </ListView>
+
+</LinearLayout>

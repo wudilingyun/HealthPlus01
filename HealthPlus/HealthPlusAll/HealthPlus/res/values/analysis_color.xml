@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="analysis_text_dark">#ff6c6c6c</color>
+     <color name="analysis_text_colorful">#ff25acca</color>
+      <color name="analysis_text_light">#ffacacac</color>
+</resources>

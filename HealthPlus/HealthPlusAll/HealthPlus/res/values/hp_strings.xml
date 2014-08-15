@@ -1,0 +1,255 @@
+<resources>
+
+    <!-- <string name="hp_app_name">云狐健康+</string> -->
+    <string name="hp_app_name">酷爱健康</string>
+    <string name="hp_main_mainpage">主页</string>
+    <string name="hp_main_description">运动从今天开始</string>
+    <string name="hp_main_distance">距离</string>
+    <string name="hp_main_distance_unit">公里</string>
+    <string name="hp_main_spend_time">时长</string>
+    <string name="hp_main_burning">燃烧</string>
+    <string name="hp_main_burning_unit">卡路里</string>
+    <string name="hp_main_times">次数</string>
+    <string name="hp_main_times_unit">次</string>
+    <string name="hp_main_sport_walking">走路</string>
+    <string name="hp_main_mood_happy">开心</string>
+    <string name="hp_main_usually_mode">普通模式</string>
+    <string name="hp_main_start_sport">开始运动</string>
+    <string name="hp_main_tab1_mainpage">主页</string>
+    <string name="hp_main_tab2_race">竞赛</string>
+    <string name="hp_main_tab3_date_run">约跑</string>
+    <string name="hp_main_tab4_activity">活动</string>
+    <string name="hp_main_shop">运动商城</string>
+    <!-- wjf add start -->
+    <string name="hp_personaledit_username">昵称:</string>
+    <string name="hp_personaledit_userage">年龄:</string>
+    <string name="hp_personaledit_userheight">身高:</string>
+    <string name="hp_personaledit_userweight">体重:</string>
+    <string name="hp_personaledit_usersex">性别:</string>
+    <string name="hp_personaledit_save">保存更改</string>
+    <string name="hp_personaledit_male">男</string>
+    <string name="hp_personaledit_female">女</string>
+    <string name="hp_personaledit_other">其他</string>
+    <string name="hp_personaledit_detail">点击分析</string>
+    <string name="hp_personaledit_infoerror">为了获得更好的体验,请完善个人信息.</string>
+    <string name="hp_personaledit_result">%1$s的BMI为%2$s,BMR为%3$s.</string>
+    <string name="hp_sportstrack_finishsport">结束运动</string>
+    <string name="hp_sportstrack_start">开始</string>
+    <string name="hp_sportstrack_pause">暂停</string>
+    <!-- wjf add end -->
+
+
+    <!-- 目标计划 start -->
+    <string name="hp_target_main_default_mode">默认模式</string>
+    <string name="hp_target_main_custom_mode">自定义模式</string>
+    <string name="hp_target_main_dialog_title_1">请选择计划目标</string>
+    <string name="hp_target_main_dialog_plan_day">日目标</string>
+    <string name="hp_target_main_dialog_plan_week">周目标</string>
+    <string name="hp_target_main_dialog_plan_time">运动计划时间</string>
+    <string name="hp_target_main_dialog_plan_calorie">运动计划消耗卡路里</string>
+    <string name="OK">确定</string>
+    <string name="CANCLE">取消</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="hour_simple">时</string>
+    <string name="minute_simple">分</string>
+    <string name="calorie">卡路里</string>
+    <!-- gps funcation -->
+    <string name="hp_gps_">运动商城</string>
+
+    <!-- sportmode function -->
+    <string name="sportmode_startmove">开始运动</string>
+    <string name="sportmode_distance_sum">总距离</string>
+    <string name="sportmode_kilometer">公里</string>
+    <string name="sportmode_calory_sum">燃烧</string>
+    <string name="sportmode_duration_sum">总时长</string>
+    <string name="sportmode_count_sum">次数</string>
+    <string name="sportmode_choosetype">选择运动类型</string>
+    <string name="sportmode_choosemode">选择运动模式</string>
+    <string name="sport_txt">运动</string>
+    <string name="health_txt">健康</string>
+    <string name="analysis_txt">分析</string>
+    <string name="user_txt">用户</string>
+    <string name="shop_txt">商城</string>
+    <string name="more_txt">更多</string>
+    <!-- 目标模式 addid by wjf -->
+    <string name="hp_target_modelchoose">目标模式选择</string>
+    <string name="hp_target_modeldistance">距离</string>
+    <string name="hp_target_modeldistancedes">设定一个距离目标</string>
+    <string name="hp_target_modeltime">时间</string>
+    <string name="hp_target_modeltimedes">设定一个时间目标</string>
+    <string name="hp_target_modelcalorie">卡路里</string>
+    <string name="hp_target_modelcaloriedes">设定需要燃烧的卡路里数</string>
+    <string name="hp_target_modelsettarget">设定目标</string>
+    <string name="hp_gpsenable_title">GPS检测</string>
+    <string name="hp_gpsenable_error">GPS未开启,请设置.</string>
+    <string name="hp_gpsenable_setting">设置</string>
+    <string name="hp_step">步</string>
+    <string name="hp_done">距离目标还有</string>
+    <string name="hp_setting">设置运动目标</string>
+    <string name="hp_normalmodel">普通模式</string>
+    <string name="hp_targetmodel">目标模式</string>
+    <string name="hp_sportmodel">运动模式</string>
+    <string name="hp_userreg_usernamedes">输入用户名时注意不要输入特殊字符(@除外)</string>
+    <string name="hp_userreg_accounts">帐号:</string>
+    <string name="hp_userreg_passworld">密码:</string>
+    <string name="hp_userreg_nickdes">*可选项:请输入昵称</string>
+    <string name="hp_userreg_nick">昵称:</string>
+    <string name="hp_userreg_accountshint">用户名或邮箱</string>
+    <string name="hp_userreg_passworldhint">6-15位数字和字母组合</string>
+    <string name="hp_userreg_nickhint">支持中英文</string>
+    <string name="hp_userreg_register">注册</string>
+    <string name="hp_userreg_login">登录</string>
+    <string name="hp_userreg_loginbtn">点击登录</string>
+    <string name="hp_userreg_success">注册成功,正在登录!</string>
+    <string name="hp_userlogin_success">登录成功!</string>
+    <string name="hp_userlogin_faild">登录失败!</string>
+    <string name="hp_userreg_loginp">请登录</string>
+    <string name="hp_userreg_registerp">请注册</string>
+    <string name="hp_userreg_whsurface">身高体重比例表</string>
+    <string name="hp_userreg_whsurfacedes">\t\t年龄、身高、体重、性别不能为空,请如实填写,以便我们正确分析您的健康状况.</string>
+    <string name="hp_userinfo_daysport">日运动量</string>
+    <string name="hp_userinfo_daysportl">轻度</string>
+    <string name="hp_userinfo_daysportm">中度</string>
+    <string name="hp_userinfo_daysporth">重度</string>
+    <string name="hp_userinfo_inputtodayweight">请输入今日体重\t:</string>
+    <string name="hp_userreg_logout">注销</string>
+    <string name="hp_userinfotitle_age">年龄</string>
+    <string name="hp_userinfotitle_sex">性别</string>
+    <string name="hp_userinfotitle_height">身高</string>
+    <string name="hp_userinfotitle_weight">体重</string>
+    <string name="hp_userinfo_back">返回</string>
+    <string name="hp_userinfo_calorie_day">卡路里/天</string>
+    <string name="hp_userinfo_finebmi">(21-22最佳)</string>
+    <string name="hp_userinfo_bmi_morelight">过轻</string>
+    <string name="hp_userinfo_bmi_normallight">正常</string>
+    <string name="hp_userinfo_bmi_fat">过重</string>
+    <string name="hp_userinfo_bmi_morefat">肥胖</string>
+    <string name="hp_userinfo_bmi_morefatest">非常肥胖</string>
+    <string name="hp_userinfo_emailbound">邮箱绑定:</string>
+    <string name="hp_userinfo_phonebound">手机绑定:</string>
+    <string name="hp_userinfo_noset">未设置</string>
+    <string name="hp_userinfo_edittitle">编辑个人信息</string>
+    <string name="hp_userinfo_motifysuccess">修改成功!</string>
+    <string name="hp_userinfo_oldpwd">旧密码:</string>
+    <string name="hp_userinfo_newpwd">新密码:</string>
+    <string name="hp_userinfo_pinput">请输入</string>
+    <string name="hp_userinfo_pwdmotify">密码修改</string>
+    <string name="achievement">成就</string>
+    <!-- setting -->
+    <string name="setting_share">分享中...</string>
+    <string name="setting_share_success">分享成功</string>
+    <string name="setting_share_failed">分享失败</string>
+    <string name="setting_share_cannel">分享取消</string>
+    <string name="setting_share_wait">分享中...</string>
+    <string name="setting_share_xlwb">新浪微博</string>
+    <string name="setting_share_txwb">腾讯微博</string>
+    <string name="setting_share_wx">微信</string>
+    <string name="setting_share_wxpy">微信朋友圈</string>
+    <string name="setting_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="hp_share_invite">酷爱健康是集用户健康检测、健康管理、健康追踪、健康资讯及用户健康交流平台于一体的健康管理软件。挺方便、实用的，推荐你用一下。下载地址：http://a.app.qq.com/o/simple.jsp?pkgname=com.vee.healthplus</string>
+    <string name="hp_share_address">http://a.app.qq.com/o/simple.jsp?pkgname=com.vee.healthplus</string>
+    <string name="update_checking">正在检查版本，请稍后...</string>
+    <string name="update_note">发现新版本，是否升级 ？</string>
+    <string name="update_yes">是</string>
+    <string name="update_no">否</string>
+    <string name="no_sdcard">未发现SD卡或SD正在被占用！</string>
+    <string name="update_is_latest">当前是最新版本</string>
+    <string name="update_current_version">当前版本号：</string>
+    <string name="update_new_version">最新版本号：</string>
+    <string name="update_installwrong">安装包已被删除,请重新下载!</string>
+    <string name="setting_feedback">建议反馈</string>
+    <string name="setting_choicequestiontype">选择问题类型</string>
+    <string name="setting_feedback_questiontype0">不能安装</string>
+    <string name="setting_feedback_questiontype1">描述不符</string>
+    <string name="setting_feedback_questiontype2">帐号相关</string>
+    <string name="setting_feedback_questiontype3">强迫关闭</string>
+    <string name="setting_feedback_questiontype4">恶意信息</string>
+    <string name="setting_feedback_questiontype5">其他</string>
+    <string name="setting_feedback_contactserviceqq">也可以加微信公众帐号：</string>
+    <string name="setting_feedback_contactserviceqq1">yhmfox</string>
+    <string name="setting_feedback_copynumber_str">复制帐号</string>
+    <string name="setting_feedback_questionhintcontent">请输入您的建议、问题，感谢您对酷爱健康的支持与关注</string>
+    <string name="wf_questioncontactway">联系方式：邮箱/电话</string>
+    <string name="setting_feedback_sendbtn">提交</string>
+    <string name="setting_feedback_wrong1">请选择问题类型!</string>
+    <string name="setting_feedback_wrong2">请填写您的联系方式!</string>
+    <string name="setting_feedback_wrong3">请填写您的建议或问题，便于我们为您服务</string>
+    <string name="setting_feedback_send_success">提交成功</string>
+    <string name="setting_feedback_send_fail">提交失败</string>
+    <string name="setting_feedback_copyok">号码已复制到剪贴板</string>
+    <string name="settings_about">关于</string>
+    <string name="setting_service">客服电话:</string>
+    <string name="setting_servicenumber">400-810-1717 服务时间:9:00-17:30</string>
+    <string name="setting_gamecenter">酷爱健康版权所有</string>
+    <string name="setting_detail_version">版本：</string>
+    <string name="hp_target_alarm_time_dialog_title">目标提醒时间设定</string>
+    <string name="setting_unregist">未登录</string>
+    <string name="setting_unset_alarm">暂未设置目标提醒</string>
+    <string name="setting_set_alarm">设定提醒</string>
+    <!-- setting end -->
+    <string name="hp_userinfo_charttitle">您的健康+轨迹图</string>
+    <string name="hp_userinfo_sporttarget">运动目标</string>
+    <string name="hp_userinfo_weightchange">体重变化</string>
+    <string name="hp_userinfo_heartratechange">心率变化</string>
+    <string name="hp_userinfo_sportdistance">运动距离</string>
+    <string name="hp_userinfo_save">保存</string>
+    <string name="hp_userinfo_noreg">无账户</string>
+    <string name="hp_userinfo_nowreg">立即注册!</string>
+    <string name="hp_userinfo_nologin">未登录</string>
+    <string name="hp_userinfo_analysisresult">分析结果</string>
+    <!-- 用户注册error信息 -->
+    <string name="hp_userregserver_error102">注册帐号长度非法</string>
+    <string name="hp_userregserver_error103">通信密钥不正确</string>
+    <string name="hp_userregserver_error104">注册帐号非法</string>
+    <string name="hp_userregserver_error1">用户名或邮箱存在，无法注册</string>
+    <string name="hp_userregserver_error5">用户基本信息写入失败</string>
+    <string name="hp_userregserver_error7">用户扩展信息写入失败</string>
+    <string name="hp_userregserver_errorother">服务器内部错误</string>
+    <!-- 用户输入信息有误 -->
+    <string name="hp_userinfoediterror_height">请输入正确的身高~</string>
+    <string name="hp_userinfoediterror_weight">请输入正确的体重~</string>
+    <string name="hp_userinfoediterror_age">请输入正确的年龄~</string>
+    <string name="hp_userinfoediterror_phone">请输入正确手机号码~</string>
+    <string name="hp_userinfoediterror_email">邮箱格式不正确~</string>
+    <string name="setting_feedback_contact_limit">0123456789abcdefghijkl@.mnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="hp_userloginerror">登录失败,请检查用户名密码是否正确.</string>
+    <string name="logining">努力登录中...</string>
+    <string name="registing">努力注册中...</string>
+    <string name="changing_pwd">正在修改...</string>
+    <!-- 退出 -->
+    <string name="quit">确定</string>
+    <string name="quit_desc">真的要退出吗？</string>
+    <!-- 运动结果 -->
+    <string name="sport_result_time">时长</string>
+    <string name="sport_result_distance">距离</string>
+    <string name="sport_result_burn">燃烧</string>
+    <string name="sport_result_count">次数</string>
+    <string name="sport_result_heart">心率</string>
+    <string name="sport_result_speed">速度</string>
+    <string name="sport_result_burn_unit">大卡</string>
+    <string name="sport_result_count_unit">次</string>
+    <string name="sport_result_heart_unit">-bpm</string>
+    <string name="sport_result_speed_unit">公里数/时</string>
+    <string name="function_not_develop">功能暂时无法使用</string>
+    <string name="right_text">健康+版权所有</string>
+    <string name="right_text_english">Copyright© 2014-2017</string>
+    <string name="loading_text">加载中...</string>
+    <!-- 酷爱健康 -->
+    <string name="doctor_main_txt">首页</string>
+    <string name="doctor_circle_txt">好友</string>
+    <string name="doctor_test_txt">测试</string>
+    <string name="doctor_ask_txt">问病</string>
+    <string name="doctor_exchange_txt">交流</string>
+    <string name="doctor_collection_txt">宝典</string>
+    <string name="doctor_user_txt">我</string>
+    <string name="doctor_user_testdata">测试数据</string>
+    <string name="doctor_user_topic">我的话题</string>
+    <string name="doctor_user_friend">我的朋友</string>
+    <string name="doctor_user_setting">设置</string>
+    <string name="doctor_user_device">设备推荐</string>
+
+    <!-- 登陆界面 -->
+    <string name="health_plus_login_marginbottom">180</string>
+
+</resources>

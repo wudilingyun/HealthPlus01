@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hp_w_dialogbg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_margin="13dp"
+        android:background="@drawable/userregeditview">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hp_userinfo_oldpwd"
+            style="@style/userregister_accounts" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/hp_userinfo_pinput"
+            style="@style/userregister_accountscontent"
+            android:id="@+id/oldPwd_et" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:layout_margin="13dp"
+        android:background="@drawable/userregeditview">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hp_userinfo_newpwd"
+            style="@style/userregister_accounts" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/hp_userinfo_pinput"
+            style="@style/userregister_accountscontent"
+            android:id="@+id/newPwd_et" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:text="@string/OK"
+        android:id="@+id/motify_btn"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@drawable/hp_w_target_setbtn_selector"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

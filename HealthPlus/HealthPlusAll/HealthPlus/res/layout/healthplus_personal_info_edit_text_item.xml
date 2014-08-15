@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/health_plus_personal_info_edit_text_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" 
+        android:background="@drawable/personal_info_item_bg_selector">
+
+        <TextView
+            android:id="@+id/health_plus_personal_info_edit_text_item_name_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:layout_weight="3"
+            android:textColor="#383838"
+            android:textSize="16sp"
+            android:gravity="left|center_vertical"
+            android:text="姓名" />
+
+        <TextView
+            android:id="@+id/health_plus_personal_info_edit_text_item_value_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dip"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="未填写"
+            android:textColor="#9d9d9d"
+            android:textSize="16sp"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+</RelativeLayout>

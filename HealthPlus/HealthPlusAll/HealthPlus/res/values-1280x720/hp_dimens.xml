@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 登陆注册界面 -->
+    <dimen name="health_plus_logo_margin_bottom">190dip</dimen>
+    <dimen name="health_plus_logo_name_margin_bottom">45dip</dimen>
+    <dimen name="health_plus_agree_margin_left">15dip</dimen>
+    <dimen name="health_plus_et_margin_right_and_left">22.5dip</dimen>
+    <dimen name="health_plus_et_height">51dip</dimen>
+    <dimen name="health_plus_et_between_et">7.5dip</dimen>
+    <dimen name="health_plus_btn_height">53dip</dimen>
+    <dimen name="health_plus_find_btn_padding">18dip</dimen>
+    <dimen name="health_plus_register_btn_height">50dip</dimen>
+    <dimen name="health_plus_register_btn_margin_bottom">18.5dip</dimen>
+    <dimen name="health_plus_find_margin_top">27dip</dimen>
+    <dimen name="health_plus_et_between_btn">16.5dip</dimen>
+    <dimen name="health_plus_et_between_tv">5dip</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="health_plus_font_size_1">11.75sp</dimen>
+    <dimen name="health_plus_font_size_2">15.5sp</dimen>
+    <dimen name="health_plus_font_size_3">18sp</dimen>
+
+    <!-- 首页 -->
+    <dimen name="myhealth_photo_margin_top">20dip</dimen>
+    <dimen name="myhealth_weather_bar_height">35dip</dimen>
+    <dimen name="myhealth_name_margin_top">10dip</dimen>
+    <dimen name="myhealth_gridview_margin_top">20dip</dimen>
+    <dimen name="myhealth_gridview_vertical_spacing">23.5dip</dimen>
+    <dimen name="myhealth_gridview_margin_left_and_right">15dip</dimen>
+
+    <!-- 好友 -->
+    <dimen name="moments_list_item_font_size">22sp</dimen>
+    <dimen name="moments_search_phone_btn_font_size">18sp</dimen>
+    <dimen name="moments_contacts_list_item_height">50dip</dimen>
+    <dimen name="moments_main_cover_height">132.5dip</dimen>
+    <dimen name="moments_user_list_item_height">88dip</dimen>
+    <dimen name="moments_new_friend_list_item_height">80dip</dimen>
+
+    <!-- 宝典 -->
+    <dimen name="news_gridview_horizontal_spacing">30.5dip</dimen>
+    <dimen name="news_list_item_height">70dip</dimen>
+
+    <!-- 我 -->
+    <dimen name="wo_feedback_margin_left_and_right">21dip</dimen>
+    <dimen name="wo_about_version_margin_top">80dip</dimen>
+    <dimen name="wo_about_logo_margin_top">30dip</dimen>
+    <dimen name="wo_about_text1_margin_top">30.5dip</dimen>
+    <dimen name="wo_about_divider_margin_top">80dip</dimen>
+    <dimen name="wo_about_tv1_margin_top">100dip</dimen>
+    <dimen name="wo_about_text2_margin_top">27dip</dimen>
+    <dimen name="wo_about_text4_margin_top">30dip</dimen>
+    <dimen name="wo_about_text5_margin_top">10.5dip</dimen>
+
+    <!-- 主界面 -->
+    <dimen name="main_bottom_tag_height">70dip</dimen>
+    <dimen name="main_bottom_tag_padding">5dip</dimen>
+    <dimen name="main_headview_height">46dip</dimen>
+
+</resources>

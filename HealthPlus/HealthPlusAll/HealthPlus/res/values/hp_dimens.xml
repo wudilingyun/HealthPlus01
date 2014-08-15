@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hp_personaledit_widgetmargin">3dp</dimen>
+    <!-- 目标计划 start -->
+    <dimen name="hp_target_main_title_size">32sp</dimen>
+    <dimen name="hp_target_main_content_size">24sp</dimen>
+    <dimen name="hp_target_main_text_size">26sp</dimen>
+    <!-- wjfadd  start -->
+    <dimen name="hp_sportstrack_line_v_height">50dp</dimen>
+    <dimen name="hp_sportstrack_distance_height">150dp</dimen>
+    <!-- wjfadd  end -->
+
+
+    <!-- font size -->
+    <dimen name="hp_font_small">11sp</dimen>
+    <dimen name="hp_font_middle">20sp</dimen>
+    <dimen name="hp_font_large">26sp</dimen>
+    <dimen name="hp_font_result_1">32sp</dimen>
+    <dimen name="hp_font_result_2">18sp</dimen>
+    <dimen name="hp_font_result_3">12sp</dimen>
+
+    <!-- padding -->
+    <dimen name="hp_main_padding_large">30dp</dimen>
+    <dimen name="hp_main_padding_small">15dp</dimen>
+    <dimen name="hp_main_padding_few">5dp</dimen>
+    <dimen name="hp_main_padding_bit">5dp</dimen>
+
+    <!-- 运动中宽度 -->
+    <dimen name="hp_sporttrack_wid">260dp</dimen>
+    <dimen name="userinfoedittext_wid">200dp</dimen>
+    <dimen name="userinfoedittext_hei">40dp</dimen>
+    <dimen name="userinfochartheight">260dp</dimen>
+    <dimen name="achievement_shorcut_top">26dp</dimen>
+    <dimen name="achievement_shorcut_bottom">26dp</dimen>
+    <dimen name="achievement_shorcut_left">20dp</dimen>
+    <dimen name="achievement_shorcut_right">20dp</dimen>
+    <dimen name="sport_mode_selector_height">35dp</dimen>
+    <dimen name="sport_mode_selector_value_size">16sp</dimen>
+
+    <!-- 运动结果 margin -->
+    <dimen name="sport_result_margin_top">20dp</dimen>
+    <dimen name="sport_result_margin_bottom">20dp</dimen>
+    <dimen name="sport_result_time_margin_right">18dp</dimen>
+    <dimen name="sport_result_distance_margin_right">8dp</dimen>
+    <dimen name="sport_result_icons_margin_top">12dp</dimen>
+    <dimen name="sport_result_unit_margin_top">5dp</dimen>
+    <dimen name="sport_result_dotted_line_margin_left">5dp</dimen>
+    <dimen name="sport_result_dotted_line_margin_right">5dp</dimen>
+    <dimen name="sport_result_dotted_line_margin_top">8dp</dimen>
+
+    <!-- 登陆注册界面 -->
+    <dimen name="health_plus_logo_margin_bottom">180dip</dimen>
+    <dimen name="health_plus_logo_name_margin_bottom">50dip</dimen>
+    <dimen name="health_plus_agree_margin_left">15dip</dimen>
+    <dimen name="health_plus_et_margin_right_and_left">20dip</dimen>
+    <dimen name="health_plus_et_height">46dip</dimen>
+    <dimen name="health_plus_et_between_et">7dip</dimen>
+    <dimen name="health_plus_btn_height">48dip</dimen>
+    <dimen name="health_plus_find_btn_padding">10dip</dimen>
+    <dimen name="health_plus_register_btn_height">48dip</dimen>
+    <dimen name="health_plus_register_btn_margin_bottom">13.5dip</dimen>
+    <dimen name="health_plus_find_margin_top">30dip</dimen>
+    <dimen name="health_plus_et_between_btn">14dip</dimen>
+    <dimen name="health_plus_et_between_tv">5dip</dimen>
+
+    <!-- 首页 -->
+    <dimen name="myhealth_photo_margin_top">13dip</dimen>
+    <dimen name="myhealth_weather_bar_height">33dip</dimen>
+    <dimen name="myhealth_name_margin_top">13dip</dimen>
+    <dimen name="myhealth_gridview_margin_top">25dip</dimen>
+    <dimen name="myhealth_gridview_vertical_spacing">16dip</dimen>
+    <dimen name="myhealth_gridview_margin_left_and_right">0dip</dimen>
+
+    <!-- 好友 -->
+    <dimen name="moments_list_item_font_size">22sp</dimen>
+    <dimen name="moments_search_phone_btn_font_size">18sp</dimen>
+    <dimen name="moments_contacts_list_item_height">50dip</dimen>
+    <dimen name="moments_main_cover_height">140dip</dimen>
+    <dimen name="moments_main_left_bar_width">35.5dip</dimen>
+    <dimen name="moments_user_list_item_height">90dip</dimen>
+    <dimen name="moments_new_friend_list_item_height">80dip</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="health_plus_font_size_1">12sp</dimen>
+    <dimen name="health_plus_font_size_2">16sp</dimen>
+    <dimen name="health_plus_font_size_3">20sp</dimen>
+
+    <!-- 宝典 -->
+    <dimen name="news_gridview_horizontal_spacing">18dip</dimen>
+    <dimen name="news_list_item_height">75dip</dimen>
+
+    <!-- 我 -->
+    <dimen name="wo_feedback_margin_left_and_right">18dip</dimen>
+    <dimen name="wo_about_version_margin_top">80dip</dimen>
+    <dimen name="wo_about_logo_margin_top">30dip</dimen>
+    <dimen name="wo_about_text1_margin_top">30.5dip</dimen>
+    <dimen name="wo_about_divider_margin_top">80dip</dimen>
+    <dimen name="wo_about_tv1_margin_top">100dip</dimen>
+    <dimen name="wo_about_text2_margin_top">27dip</dimen>
+    <dimen name="wo_about_text4_margin_top">30dip</dimen>
+    <dimen name="wo_about_text5_margin_top">10.5dip</dimen>
+
+    <!-- 主界面 -->
+    <dimen name="main_bottom_tag_height">70dip</dimen>
+    <dimen name="main_bottom_tag_padding">5dip</dimen>
+        <dimen name="main_headview_height">46dip</dimen>
+
+</resources>

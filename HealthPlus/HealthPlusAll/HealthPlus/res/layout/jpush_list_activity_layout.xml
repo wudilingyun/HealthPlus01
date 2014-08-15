@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/news_detail_title"
+        layout="@layout/include_header" />
+
+    <LinearLayout
+        android:id="@+id/layout_inner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/jpush_list_none_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/white"
+            android:gravity="center"
+            android:text="未收到过推送"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/jpush_list_lv"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#66dfdfde"
+            android:dividerHeight="0.5dip"
+            android:dividerPadding="5dp"
+            android:footerDividersEnabled="true"
+            android:listSelector="#00000000">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

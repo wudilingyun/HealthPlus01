@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<group mcName ="head" name="头">
+		<part name="头部" id="1"/>
+		<part name="眼部" id="2"/>
+		<part name="口部" id="5"/>
+		<part name="鼻部" id="4"/>
+		<part name="面部" id="3"/>
+		<part name="耳部" id="6"/>
+	</group>
+	<group mcName ="leg" name="下肢">
+		<part name="大腿" id="31"/>
+		<part name="膝部" id="32"/>
+		<part name="小腿" id="33"/>
+		<part name="脚踝" id="34"/>
+		<part name="脚部" id="20"/>
+		<part name="髋部" id="30"/>
+	</group>
+	<group mcName ="back" name="背部">
+		<part name="背部" id="16"/>
+		<part name="脊柱" id="29"/>
+		<part name="腰部" id="17"/>
+	</group>
+	<group mcName ="occiput" name="枕部">
+		<part name="头部" id="1"/>
+		<part name="项部" id="24"/>
+	</group>
+	 <group mcName ="belly" name="腹部">
+		<part name="左上腹" id="25"/>
+		<part name="右上腹" id="26"/>
+		<part name="左下腹" id="39"/>
+		<part name="右下腹" id="40"/>
+		<part name="阴部" id="14"/>
+	</group> 
+	<group mcName ="w_belly" name="腹部">
+		<part name="左上腹" id="25"/>
+		<part name="右上腹" id="26"/>
+		<part name="左下腹" id="27"/>
+		<part name="右下腹" id="28"/>
+		<part name="阴部" id="15"/>
+	</group>
+	<!-- <group mcName ="c_belly" name="腹部">
+		<part name="左上腹" id="25"/>
+		<part name="右上腹" id="26"/>
+		<part name="左下腹" id="27"/>
+		<part name="右下腹" id="28"/>
+		<part name="阴部" id="14"/>
+	</group> -->
+	<group mcName ="hand" name="上肢">
+		<part name="上臂" id="35"/>
+		<part name="下臂" id="37"/>
+		<part name="肘部" id="36"/>
+		<part name="腕部" id="38"/>
+		<part name="手部" id="9"/>
+	</group>
+	<group mcName="shoulder" pid="8" name="肩部"/>
+	<group mcName="buttocks" pid="18" name="臀部"/>
+	<group mcName="chest" pid="10" name="胸部"/>
+	<group mcName="others" pid="22" name="其它"/>
+	<group mcName="neck" pid="7" name="颈部"/>
+	<group mcName="breast" pid="23" name="乳房"/>
+</body>

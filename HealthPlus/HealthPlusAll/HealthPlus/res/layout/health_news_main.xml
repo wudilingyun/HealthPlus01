@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/news_detail_title"
+        layout="@layout/include_header" />
+
+    <LinearLayout
+        android:id="@+id/layout_inner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/loading_frame"
+            layout="@layout/health_loading_data" />
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/listView_news"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="#66dfdfde"
+            android:dividerHeight="0.5dip"
+            android:dividerPadding="5dp"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="true"
+            android:listSelector="#00000000"
+            ptr:ptrHeaderBackground="#414141"
+            ptr:ptrHeaderTextColor="#ffffff"
+            ptr:ptrRefreshableViewBackground="@drawable/home_background" >
+        </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 健康界面 -->
+    <dimen name="health_padding_Left">40.0dip</dimen>
+    <dimen name="health_padding_Top">20.0dip</dimen>
+    <dimen name="health_layout_marginBottom">9.0dip</dimen>
+    <dimen name="health_layout_marginLeft">12.0dip</dimen>
+    <dimen name="health_paddind">15.0dip</dimen>
+    <dimen name="health_textsize_1">16.0sp</dimen>
+    <dimen name="health_textsize_2">18.0sp</dimen>
+    <dimen name="health_textsize_3">10.0sp</dimen>
+    <dimen name="health_textsize_4">15.0sp</dimen>
+    <dimen name="health_textsize_5">9.0sp</dimen>
+    <!-- 心率监测 -->
+    <dimen name="heart_padding_medium">8.0dip</dimen>
+    <dimen name="heart_padding_little">2.0dip</dimen>
+    <dimen name="heart_count_txt">45.0sp</dimen>
+    <dimen name="heart_count_unit">16.0sp</dimen>
+  
+    
+    
+    <dimen name="heart_chart_height">130.0dip</dimen>
+    <dimen name="heart_button_height">68.0dip</dimen>
+ 	<dimen name="heart_resultchart_height">70.0dip</dimen>
+    
+    <!-- marging -->
+    <dimen name="health_exam_result_marging">10.0dip</dimen>
+    <dimen name="health_exam_marging">15.0dip</dimen>
+    <dimen name="health_exam_marging_bottom">7.0dip</dimen>
+    <dimen name="hp_font_middle_1">16sp</dimen>
+    <dimen name="hp_font_large_1">30sp</dimen>
+    <dimen name="hp_main_padding_big">30dp</dimen>
+    <dimen name="health_main_padding_little">5dp</dimen>
+    <dimen name="health_main_padding_big">8dp</dimen>
+
+    <!-- 新闻 -->
+    <dimen name="news_padding">10.0dip</dimen>
+    <dimen name="news_marging_top">5.0dip</dimen>
+    <dimen name="heart_marging">8.0dip</dimen>
+    <dimen name="heart_padding">10.0dip</dimen>
+
+</resources>

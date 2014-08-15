@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMAndForum</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nofriends">没有好友</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="signin_signin">signin</string>
+    <string name="signin_cancel">Cancel</string>
+    <string name="username">用户名</string>
+    <string name="password">密　码</string>
+    <string name="avatar">头像</string>
+
+</resources>

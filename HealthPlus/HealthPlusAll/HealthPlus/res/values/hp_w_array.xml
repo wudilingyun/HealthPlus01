@@ -1,0 +1,45 @@
+<resources>
+
+    <string-array name="sportmode">
+        <item>普通模式</item>
+        <item>目标模式</item>
+    </string-array>
+    <string-array name="sportresult">
+        <item>燃烧</item>
+        <item>次数</item>
+        <item>心率</item>
+        <item>平均速度</item>
+    </string-array>
+    <string-array name="tab_name">
+        <item>@string/sport_txt</item>
+        <item>@string/health_txt</item>
+        <item>@string/analysis_txt</item>
+        <item>@string/shop_txt</item>
+        <item>@string/more_txt</item>
+    </string-array>
+    <string-array name="doctor_tab_name">
+        <item>@string/doctor_main_txt</item>
+        <item>@string/doctor_circle_txt</item>
+        <item>@string/doctor_collection_txt</item>
+        <item>@string/doctor_user_txt</item>
+    </string-array>
+    <string-array name="doctor_user_item_logout">
+        <item>@string/doctor_user_testdata</item>
+        <item>@string/doctor_user_setting</item>
+        <item>@string/doctor_user_device</item>
+    </string-array>
+    <string-array name="doctor_user_item_login">
+        <item>@string/doctor_user_testdata</item>
+        <item>@string/doctor_user_setting</item>
+        <item>@string/doctor_user_device</item>
+        <item>安全退出</item>
+    </string-array>
+    <string-array name="tab_icons">
+        <item>perm_group_calendar</item>
+        <!-- <item>perm_group_camera</item> -->
+        <item>perm_group_device_alarms</item>
+        <item>perm_group_location</item>
+        <item>perm_group_more</item>
+    </string-array>
+
+</resources>

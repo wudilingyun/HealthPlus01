@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.vee.healthplus"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.vee.healthplus.widget.MyRelativeLayout
+        android:id="@+id/child_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.vee.shop.ui.ShopHeaderView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            app:shopheaderLeftBtn="back"
+            app:shopheaderRightBtn="cart"
+            app:shopheaderText="@string/hp_app_name" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/header"
+            android:orientation="vertical" />
+    </com.vee.healthplus.widget.MyRelativeLayout>
+
+</FrameLayout>

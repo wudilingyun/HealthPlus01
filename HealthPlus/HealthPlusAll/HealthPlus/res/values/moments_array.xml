@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="addfriend">
+        <item>搜号码</item>
+        <item>添加手机联系人</item>
+        <item>信息</item>
+    </string-array>
+    <string-array name="momentsmain">
+        <item>健康圈</item>
+        <item>好友列表</item>
+       <!--  <item>新康友</item> -->
+        <item>搜号码</item>
+        <item>添加手机联系人</item>
+    </string-array>
+</resources>

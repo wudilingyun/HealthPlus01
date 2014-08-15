@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/loading_frame_webview"
+        layout="@layout/health_loading_data"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/webwiewshow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/lin_bottom" />
+
+        <LinearLayout
+            android:id="@+id/lin_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:background="@drawable/valuebook_webview_bottom" >
+
+            <com.vee.healthplus.widget.DrawableCenterTextView
+                android:id="@+id/comment_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/comment_normal"
+                android:padding="5dp"
+                android:text="评论"
+                android:textColor="#9d9d9d"
+                android:textSize="@dimen/health_plus_font_size_2" />
+
+            <View
+                android:id="@+id/view_divider_1"
+                style="@style/view_divider" />
+
+            <com.vee.healthplus.widget.DrawableCenterTextView
+                android:id="@+id/collect_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/collect_cancle"
+                android:padding="5dp"
+                android:text="收藏"
+                android:textColor="#9d9d9d"
+                android:textSize="@dimen/health_plus_font_size_2" />
+
+            <View
+                android:id="@+id/view_divider_1"
+                style="@style/view_divider" />
+
+            <com.vee.healthplus.widget.DrawableCenterTextView
+                android:id="@+id/share_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/share_normal"
+                android:padding="5dp"
+                android:text="分享"
+                android:textColor="#9d9d9d"
+                android:textSize="@dimen/health_plus_font_size_2" />
+
+            <View
+                android:id="@+id/view_divider_1"
+                style="@style/view_divider" />
+
+            <com.vee.healthplus.widget.DrawableCenterTextView
+                android:id="@+id/support_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/support_icon_normal"
+                android:padding="5dp"
+                android:text="赞"
+                android:textColor="#9d9d9d"
+                android:textSize="@dimen/health_plus_font_size_2" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

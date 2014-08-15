@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="analysis_year_ch">年</string>
+    <string name="analysis_month_ch">月</string>
+    <string name="analysis_day_ch">日</string>
+    <string name="analysis_record_count">总计：</string>
+    <string name="analysis_record_high">最高：</string>
+    <string name="analysis_record_low">最低：</string>
+    <string name="analysis_title_distance">距离</string>
+    <string name="analysis_title_calory">卡路里</string>
+    <string name="analysis_title_duration">时间</string>
+    <string name="analysis_title_heart">心率</string>
+    <string name="analysis_title_blood">血氧</string>
+    <string name="analysis_history_note">您还没有测试记录</string>
+</resources>

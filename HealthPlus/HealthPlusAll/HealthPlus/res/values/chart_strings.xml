@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="gridchart">GridChart</string>
+    <string name="machart">MAChart</string>
+    <string name="stickchart">StickChart</string>
+    <string name="mastickchart">MAStickChart</string>
+
+    <string name="candlestickchart">CandleStickChart</string>
+
+
+</resources>

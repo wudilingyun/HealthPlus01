@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vee.imandforum"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".authorization.SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".main.FragmentTabsPager"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".im.ChatActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- mqtt start -->
+        <service
+            android:name="com.vee.mqtt.MqttService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+        <!-- mqtt end -->
+
+        <!-- for forum -->
+        <activity
+            android:name=".forum.CategoryActivity"
+            android:label="@string/title_activity_category" >
+        </activity>
+        <activity
+            android:name=".forum.TopicActivity"
+            android:label="@string/title_activity_topic" >
+        </activity>
+        <activity
+            android:name=".forum.PostActivity"
+            android:label="@string/title_activity_post" >
+        </activity>
+        <activity
+            android:name=".forum.TopicDetailActivity"
+            android:label="@string/title_activity_topic_detail" >
+        </activity>
+        <activity
+            android:name=".forum.ReplyPostActivity"
+            android:label="@string/title_activity_reply_post" >
+        </activity>
+        <!-- for forum -->
+
+    </application>
+
+</manifest>

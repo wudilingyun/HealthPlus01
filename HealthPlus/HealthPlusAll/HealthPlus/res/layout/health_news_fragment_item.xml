@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/news_item_selector"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/news_item_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           	android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/news_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="运动"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/health_plus_font_size_2" />
+
+        <TextView
+            android:id="@+id/news_item_name_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="sports"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

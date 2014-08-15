@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/cameraonecover_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/personal_info_item_bg_selector"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="35dp"
+        android:text="@string/cameraonecover"
+        android:textColor="#9d9d9d"
+        android:textSize="20sp" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.7dip"
+        android:background="#669d9d9d"/>
+    
+    <Button
+        android:id="@+id/albumcover_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/personal_info_item_bg_selector"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="35dp"
+        android:text="@string/albumcover"
+        android:textColor="#9d9d9d"
+        android:textSize="20sp" />
+</LinearLayout>

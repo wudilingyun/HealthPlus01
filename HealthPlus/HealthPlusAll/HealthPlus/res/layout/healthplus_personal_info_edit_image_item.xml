@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/health_plus_personal_info_edit_image_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:background="@drawable/personal_info_item_bg_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/health_plus_personal_info_edit_image_item_name_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="头像"
+            android:textColor="#383838"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical" >
+
+            <ImageView
+                android:id="@+id/health_plus_personal_info_edit_image_item_photo_iv"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:src="@drawable/healthplus_personal_info_default_photo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

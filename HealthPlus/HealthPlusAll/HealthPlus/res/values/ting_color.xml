@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+  <color name="backcolor">#FFFFFF</color>
+  <color name="listbackcolor">#EFEFEF</color>
+  <color name="frame">#87af30</color>
+  <color name="text">#000000</color>
+  <color name="textback">#FFFFFF</color>
+  <color name="listtext">#000000</color>
+  <color name="listsubtext">#464646</color>
+  <color name="listhiback">#717171</color>
+  <color name="titleback">#3A3A3A</color>
+  <color name="titlesubback">#CCCCCC</color>
+  <color name="titlesubback_local">#F6F6F6</color>
+  <color name="titletext">#FFFFFF</color>
+  <color name="line_dark">#CACACA</color>
+  <color name="line_light">#FFFFFF</color>
+</resources>
+

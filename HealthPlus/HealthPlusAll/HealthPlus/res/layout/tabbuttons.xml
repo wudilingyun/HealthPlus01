@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="运动距离"
+        android:id="@+id/sporttarget_tv"
+        android:background="@drawable/userinforightnormal"
+        style="@style/tabbuttons" />
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="1px"
+        android:layout_marginTop="2px"
+        android:layout_marginBottom="2px"
+        android:background="@drawable/line_v" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="运动消耗"
+        android:id="@+id/weightchange_tv"
+        android:background="@drawable/userinfocenternormal"
+        style="@style/tabbuttons" />
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="1px"
+        android:layout_marginTop="2px"
+        android:layout_marginBottom="2px"
+        android:background="@drawable/line_v" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="运动时长"
+        android:id="@+id/heartratechange_tv"
+        android:background="@drawable/userinfocenternormal"
+        style="@style/tabbuttons" />
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="1px"
+        android:layout_marginTop="2px"
+        android:layout_marginBottom="2px"
+        android:background="@drawable/line_v" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="体重变化"
+        android:id="@+id/sportdistance_tv"
+        android:background="@drawable/userinforightnormal"
+        style="@style/tabbuttons" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <color name="hp_w_header_view_white">#ffffffff</color>
+    <color name="hp_w_header_view_black">#00000000</color>
+    <color name="hp_view_bg">#f7f7f7</color>
+    <color name="hp_font_lightblack">#acacac</color>
+    <color name="hp_font_darkblack">#5d5d5d</color>
+    <color name="hp_font_midblack">#4a4949</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="blue_light">#01d3ff</color>
+
+    <color name="little_little_gray">#7e7e7e</color>
+
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="hp_w_target_week">#4a4949</color>
+    <color name="hp_w_target_title">#25acca</color>
+    <color name="hp_w_target_titledes">#acacac</color>
+    <color name="hp_w_line_lv">#28a2a2a2</color>
+    <color name="hp_w_line_lv_50">#32a2a2a2</color>
+    <color name="hp_w_line_lv_80">#50a2a2a2</color>
+    <color name="hp_w_dialogbg">#fff3f3f3</color>
+
+    <color name="hp_w_userweightchart_line">#d83c2f</color>
+    <color name="hp_w_userweightchart_lonline">#4c4c4c</color>
+    <color name="hp_w_userweightchart_xline">#6e6e6e</color>
+    <color name="hp_w_userweightchart_font">#787878</color>
+    <color name="hp_popmenu_item_line">#a2a2a2</color>
+    <color name="gray_light">#a5a5a5</color>
+    <color name="feedback_mainbg">#f2f2f2</color>
+    <color name="feedback_gray_hard">#373737</color>
+    <color name="feedback_gray_middle">#6d6d6d</color>
+    <color name="feedback_gray_light">#a5a5a5</color>
+    <color name="about_listbackcolor">#EFEFEF</color>
+    <color name="about_line_dark">#CACACA</color>
+    <color name="motifypwd">#F4A33A</color>
+    <color name="dark_blue">#1fa1bd</color>
+    <color name="sky_blue">#24acc9</color>
+    <color name="linec">#bebebe</color>
+    <color name="select_background">#d9d9d9</color>
+    <!-- health main-->
+    <color name="chart_line_yellow">#f4a33a</color>
+    <color name="chart_circle_full_yellow">#ffc000</color>
+    <color name="black_black">#404040</color>
+    <color name="gray_balck">#696969</color>
+    <color name="little_gray">#8c8c8c</color>
+    <color name="trans_gray">#33000000</color>
+    <color name="trans_2_gray">#55000000</color>
+</resources>

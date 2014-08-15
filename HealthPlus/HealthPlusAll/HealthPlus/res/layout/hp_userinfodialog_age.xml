@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hp_w_dialogbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/age_wv"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/hp_w_target_setbtn_selector"
+        android:text="@string/OK"
+        android:textColor="@color/hp_w_header_view_white"
+        android:textSize="18sp" />
+
+</LinearLayout>

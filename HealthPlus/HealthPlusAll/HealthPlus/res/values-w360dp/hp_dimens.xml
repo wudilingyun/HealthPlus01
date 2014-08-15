@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hp_font_middle">21sp</dimen>
+    <dimen name="achievement_shorcut_top">31dp</dimen>
+    <dimen name="achievement_shorcut_bottom">30dp</dimen>
+    <dimen name="achievement_shorcut_left">30dp</dimen>
+    <dimen name="achievement_shorcut_right">30dp</dimen>
+    <dimen name="sport_mode_selector_height">50dp</dimen>
+    <dimen name="sport_mode_selector_value_size">17sp</dimen>
+</resources>

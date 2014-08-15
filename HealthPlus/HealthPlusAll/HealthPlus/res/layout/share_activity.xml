@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+
+        <ListView
+            android:id="@+id/shareTo_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="51dp"
+            android:layout_marginRight="51dp"
+          
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#70000000"
+            android:dividerHeight="0.5dp"
+            android:headerDividersEnabled="false"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+
+</RelativeLayout>

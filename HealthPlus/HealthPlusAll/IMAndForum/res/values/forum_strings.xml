@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">S4AServiceTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="username">用户名</string>
+    <string name="userid">用户ID</string>
+    <string name="nickname">昵称</string>
+    <string name="email">邮件</string>
+    <string name="phone">电话</string>
+    <string name="gender">性别</string>
+    <string name="radiobuttonmale">男</string>
+    <string name="radiobuttonfemale">女</string>
+    <string name="weight">体重</string>
+    <string name="height">身高</string>
+    <string name="age">年龄</string>
+    <string name="channel">渠道号</string>
+    <string name="version">版本号</string>
+    <string name="remark">备注</string>
+    <string name="createtime">创建时间</string>
+    <string name="lastlogin">最后登录时间</string>
+    <string name="saveprofile">保存用户信息</string>
+    <string name="savechannelandversion">保存渠道号和版本号</string>
+    <string name="signout">注销</string>
+    <string name="bindemail">绑定邮箱</string>
+    <string name="bindemaildesc">如果已设置邮箱，点击下面按钮绑定邮箱到用户</string>
+    <string name="title_activity_main_tab_widget">MainTabWidget</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="oldpassword">旧密码</string>
+    <string name="newpassword">新密码</string>
+    <string name="updatepwd">修改密码</string>
+    <string name="resetpwd">重置密码</string>
+    <string name="title_activity_sports">SportsActivity</string>
+    <string name="getsportstype">取得运动类型</string>
+    <string name="getsportscalory">取得运动卡洛里</string>
+    <string name="getlatestid">用户最新运动ID(latestid)</string>
+    <string name="sendsportsrecord">发送运动记录</string>
+    <string name="getmysportlist">取得我的运动列表</string>
+    <string name="textViewSportid">运动号(latestid)</string>
+    <string name="getsportsrecord">取得运动记录</string>
+    <string name="textViewPassword">密码</string>
+    <string name="textViewUsername">用户名</string>
+    <string name="textViewNickname">昵称(可选)</string>
+    <string name="textViewDayRecordDate">每日记录日期</string>
+    <string name="textViewDayRecordType">每日记录类型</string>
+    <string name="textViewDayRecordValue">每日记录值</string>
+    <string name="savedayrecord">保存每日记录</string>
+    <string name="openCamera">打开相机</string>
+    <string name="openPic">打开图库</string>
+    <string name="textViewFromDate">开始日期</string>
+    <string name="textViewToDate">结束日期</string>
+    <string name="textViewQueryType">查询类型</string>
+    <string name="querydayrecordbytypeandscope">根据类型和范围查询</string>
+    <string name="queryalldayrecordbytype">查询某类型所有记录</string>
+    <string name="getexamreportlist">取得综合体检报告</string>
+    <string name="getweather">获取天气</string>
+    <string name="textViewCityname">城市名(市名)</string>
+    <string name="textViewDistrict">区(县)</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_forum">ForumActivity</string>
+    <string name="title_activity_topic">TopicActivity</string>
+
+    <!-- 帖子相关 -->
+    <string name="topic_id">-1</string>
+    <string name="topic_title">没有标题</string>
+    <string name="topic_content">内容前20个字符&#8230;</string>
+    <string name="topic_author">匿名</string>
+    <string name="topic_visits_replies">回复/浏览:%1$s/%2$s</string>
+    <string name="topic_detail_show_pic">查看所有图片，共%1$s张</string>
+    <string name="topic_pic_info">第%1$s张，共%2$s张</string>
+
+    <!-- 帖子发表时间相关 -->
+    <string name="topic_pubtime">1分钟前</string>
+    <string name="minutes_before">%1$d分钟前</string>
+    <string name="hours_before">%1$d小时前</string>
+    <string name="day_before_yesterday">前天 %1$s</string>
+    <string name="yesterday">昨天 %1$s</string>
+    <string name="days_before">%1$d天前</string>
+    <string name="months_before">%1$d个月前</string>
+    <string name="years_before">%1$d年前</string>
+    <string name="post">发帖</string>
+    <string name="topic_send_title">标题：</string>
+    <string name="topic_send_title_hint">请输入标题</string>
+    <string name="newpost">发布帖子</string>
+    <string name="ReplyPost">回复</string>
+    <string name="topic_send_type">分类：</string>
+    <string name="topic_send_content_hint">说点什么吧&#8230;&#8230;</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title_activity_topic_detail">TopicDetailActivity</string>
+    <string name="title_activity_reply_post">ReplyPostActivity</string>
+    
+    <string name="pull_to_refresh_pull">下拉可刷新</string>
+    <string name="pull_to_refresh_release">释放开始刷新</string>
+    <string name="pull_to_refresh_refreshing">加载中&#8230;</string>
+    <string name="pull_to_refresh_at">更新于:</string>
+    
+    <string name="pull_to_load">上拉加载&#8230;</string>
+    <string name="loading">正在载入&#8230;</string>
+    <string name="release_to_load">放开以加载&#8230;</string>
+    <string name="nomoreloaded">没有更多可以加载了</string>
+    <string name="noTextDown">暂时没有取得数据，下拉刷新</string>
+    <string name="noTextUp">暂时没有取得数据 ，上拉加载</string>
+
+</resources>

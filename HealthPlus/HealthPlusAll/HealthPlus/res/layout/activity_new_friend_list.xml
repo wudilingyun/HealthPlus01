@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/newfriendlist_title"
+        layout="@layout/include_header" />
+
+    <ListView
+        android:id="@+id/newfriendlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#dfdfde"
+        android:dividerHeight="0.6dip"
+        android:headerDividersEnabled="false"
+        android:listSelector="#00000000" >
+    </ListView>
+
+    <TextView 
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:text="@string/nonewfriend"/>
+</LinearLayout>

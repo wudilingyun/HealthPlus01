@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20sp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10sp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您的GPS信号较弱"
+        android:textColor="@color/hp_w_target_title"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="如何寻找良好的gps信号?\n •绕开高楼大厦\n •在你手机里开启移动数据连接\n •等待GPS信号变成为绿色\n •如果所有方法都无效，请重启您的手机"
+        android:textColor="@color/hp_w_target_week"
+        android:textSize="16sp" />
+
+</LinearLayout>

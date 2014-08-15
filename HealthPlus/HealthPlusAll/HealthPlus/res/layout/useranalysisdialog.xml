@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/result_rl"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/resulttitle_reslut"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/userregister_userinforesulttitle"
+            android:text="测试结果:" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/resulttitle_idealweight"
+            android:layout_below="@+id/resulttitle_reslut"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/userregister_userinforesulttitle"
+            android:text="理想体重:" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/resulttitle_bmi"
+            android:layout_below="@+id/resulttitle_idealweight"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/userregister_userinforesulttitle"
+            android:text="身体质量指数:" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/resulttitle_bmr"
+            android:layout_below="@+id/resulttitle_bmi"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/userregister_userinforesulttitle"
+            android:text="基础代谢率:" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/resulttitle_everydayquality"
+            android:layout_below="@+id/resulttitle_bmr"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/userregister_userinforesulttitle"
+            android:text="每天需要热量:" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/resulttitle_addweight"
+            android:layout_below="@+id/resulttitle_everydayquality"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/userregister_userinforesulttitle"
+            android:text="如需增重:" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/resulttitle_subtrack"
+            android:layout_below="@+id/resulttitle_addweight"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            style="@style/userregister_userinforesulttitle"
+            android:text="如需减重:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您体形稍胖"
+            style="@style/userregister_userinforesult"
+            android:id="@+id/result_result"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/resulttitle_reslut" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60kg"
+            style="@style/userregister_userinforesult"
+            android:id="@+id/result_idealweight"
+            android:layout_below="@+id/result_result"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/resulttitle_idealweight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23(21-22为最佳)"
+            style="@style/userregister_userinforesult"
+            android:id="@+id/result_bmi"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/result_idealweight"
+            android:layout_toRightOf="@+id/resulttitle_bmi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1569.1卡路里/天"
+            style="@style/userregister_userinforesult"
+            android:id="@+id/result_bmr"
+            android:layout_below="@+id/result_bmi"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/resulttitle_bmr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2447.8卡路里/天"
+            style="@style/userregister_userinforesult"
+            android:id="@+id/result_everydayquality"
+            android:layout_below="@+id/result_bmr"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/resulttitle_everydayquality" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2947.8-3447.8卡路里/天"
+            style="@style/userregister_userinforesult"
+            android:id="@+id/result_addweight"
+            android:layout_below="@+id/result_everydayquality"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/resulttitle_addweight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1447.8-1947.8卡路里/天"
+            style="@style/userregister_userinforesult"
+            android:id="@+id/result_subtrackweight"
+            android:layout_below="@+id/result_addweight"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/resulttitle_subtrack" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_below="@+id/result_subtrackweight">
+
+            <Button
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:text="@string/hp_userinfo_back"
+                android:id="@+id/back_btn"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/hp_w_target_setbtn_selector"
+                android:layout_gravity="left|center_vertical" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

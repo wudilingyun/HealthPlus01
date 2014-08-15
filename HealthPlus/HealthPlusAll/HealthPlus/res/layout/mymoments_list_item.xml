@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/moments_user_list_item_height"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <include
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            layout="@layout/mymoments_vertival_textview"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dp"
+            layout="@layout/mymoments_vertical_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="2dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:padding="2dp" >
+
+                <ImageView
+                    android:id="@+id/iv_photo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/health_plus_font_size_2" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_gravity="bottom"
+                android:background="#44ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

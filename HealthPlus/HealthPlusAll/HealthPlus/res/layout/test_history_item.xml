@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white"
+    android:padding="@dimen/news_padding" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/test_history_index"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/health_textsize_4" />
+
+        <TextView
+            android:id="@+id/test_history_name"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="血样测试"
+            android:textColor="#000000"
+            android:textSize="@dimen/health_textsize_4" />
+
+        <TextView
+            android:id="@+id/test_history_time"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="2014-3-5"
+            android:textColor="#000000"
+            android:textSize="@dimen/health_textsize_4" />
+
+        <TextView
+            android:id="@+id/test_history_result"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="正常"
+            android:textColor="#00ee00"
+            android:textSize="@dimen/health_textsize_4" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2924), pid=8964, tid=8248
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0_05-ea-b04 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00358400):  JavaThread "Unknown thread" [_thread_in_vm, id=8248, stack(0x00280000,0x002d0000)]
+
+Stack: [0x00280000,0x002d0000]
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00358400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=8248, stack(0x00280000,0x002d0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files (x86)\Java\jre6\bin\javaw.exe
+0x77030000 - 0x771b0000 	C:\Windows\SysWOW64\ntdll.dll
+0x74ab0000 - 0x74bc0000 	C:\Windows\syswow64\kernel32.dll
+0x75260000 - 0x752a7000 	C:\Windows\syswow64\KERNELBASE.dll
+0x74bd0000 - 0x74c70000 	C:\Windows\syswow64\ADVAPI32.dll
+0x76170000 - 0x7621c000 	C:\Windows\syswow64\msvcrt.dll
+0x766a0000 - 0x766b9000 	C:\Windows\SysWOW64\sechost.dll
+0x766e0000 - 0x767d0000 	C:\Windows\syswow64\RPCRT4.dll
+0x74a50000 - 0x74ab0000 	C:\Windows\syswow64\SspiCli.dll
+0x74a40000 - 0x74a4c000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x769a0000 - 0x76aa0000 	C:\Windows\syswow64\USER32.dll
+0x76000000 - 0x76090000 	C:\Windows\syswow64\GDI32.dll
+0x75240000 - 0x7524a000 	C:\Windows\syswow64\LPK.dll
+0x74e10000 - 0x74ead000 	C:\Windows\syswow64\USP10.dll
+0x76aa0000 - 0x76b00000 	C:\Windows\system32\IMM32.DLL
+0x760a0000 - 0x7616c000 	C:\Windows\syswow64\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jre6\bin\msvcr71.dll
+0x6d800000 - 0x6da50000 	C:\Program Files (x86)\Java\jre6\bin\client\jvm.dll
+0x72120000 - 0x72152000 	C:\Windows\system32\WINMM.dll
+0x71d40000 - 0x71d8c000 	C:\Windows\system32\apphelp.dll
+0x6d280000 - 0x6d288000 	C:\Program Files (x86)\Java\jre6\bin\hpi.dll
+0x76090000 - 0x76095000 	C:\Windows\syswow64\PSAPI.DLL
+0x6d7b0000 - 0x6d7bc000 	C:\Program Files (x86)\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Program Files (x86)\Java\jre6\bin\java.dll
+0x6d7f0000 - 0x6d7ff000 	C:\Program Files (x86)\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:E:\adt-bundle-windows-x86\sdk\platforms\android-14\android.jar 
+java_command: com.vee.healthplus.ui.heahth_exam.Weather
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:/Program Files (x86)/Java/jre6/lib/i386;C:\Program Files (x86)\CollabNet\Subversion Client;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\PolyTrans64;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\TortoiseSVN\bin;E:\adt-bundle-windows-x86\sdk\platform-tools;C:\Program Files (x86)\Java\jdk1.6.0_05\bin;E:\adt-bundle-windows-x86\sdk\platform-tools;E:\adt-bundle-windows-x86\sdk\tools;E:\adt-bundle-windows-x86\eclipse;
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 15 Stepping 11, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 15 stepping 11, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 4194303k(2569960k free), swap 4194303k(3749416k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.6.0_05-ea-b04) for windows-x86, built on Sep 27 2007 01:10:16 by "java_re" with unknown MS VC++:1310
+
+time: Mon Dec 23 09:48:15 2013
+elapsed time: 0 seconds
+

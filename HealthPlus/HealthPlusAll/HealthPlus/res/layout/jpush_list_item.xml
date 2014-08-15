@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white"
+    android:padding="@dimen/news_padding" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:id="@+id/jpush_list_index_tv"
+            android:layout_width="15dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="1."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/jpush_list_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/jpush_list_index_tv"
+            android:text="健康贴士"
+            android:textColor="@color/black"
+			android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/jpush_list_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/jpush_list_title_tv"
+            android:layout_toLeftOf="@+id/jpush_list_time_tv"
+            android:maxLines="2"
+            android:text="心理健康辅导adfaasdfsadfasdfsdafds阿斯顿发送到发送到afasdfsdafasdfs阿斯顿飞撒旦法斯蒂芬adf"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@id/jpush_list_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dip"
+            android:textStyle="bold|italic"
+            android:text="3-5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/health_textsize_3" />
+    </RelativeLayout>
+
+</RelativeLayout>

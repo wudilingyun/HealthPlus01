@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/searchphone_title"
+        layout="@layout/include_header" />
+
+    <LinearLayout
+        android:id="@+id/searchfriendlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ececec"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="20dp" >
+
+        <EditText
+            android:id="@+id/editTextSearchPhone"
+            android:layout_width="0dp"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_normal_focus"
+            android:hint="用户名/手机号" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="right"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/search_phone_btn_bg"
+            android:maxWidth="70dp"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:gravity="center"
+            android:text="@string/searchbutton"
+            android:textColor="#fff"
+            android:textSize="@dimen/moments_search_phone_btn_font_size" />
+    </LinearLayout>
+
+</LinearLayout>

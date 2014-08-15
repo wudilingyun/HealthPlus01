@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/moments_addfriend_header" 
+        layout="@layout/include_header"/>
+    <ListView 
+        android:id="@+id/addfriendlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:cacheColorHint="#00000000"
+        android:divider="#66dfdfde"
+        android:dividerHeight="0.5dip">
+        
+    </ListView>
+</LinearLayout>

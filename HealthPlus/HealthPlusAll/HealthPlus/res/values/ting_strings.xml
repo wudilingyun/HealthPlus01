@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mymusic">我的音乐</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确定</string>
+    <string name="note">提示</string>
+    <string name="recommend">推荐</string>
+    <string name="goback">返回</string>
+    <string name="playall">全部播放</string>
+    <string name="songname">歌曲名</string>
+    <string name="singer">歌手</string>
+    <string name="toplist_title">榜单定制中心</string>
+    <string name="toplist_detial">榜单介绍</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_quit">退出程序</string>
+
+    <string name="checking">正在检查版本，请稍后...</string>
+    <string name="nolrc">无歌词文件</string>
+    <string name="nolocalsongs">未发现音乐，快来添加几首吧 :)</string>
+
+    <string name="no_internet">无可用网络</string>
+    <string name="settings_save">边听边存</string>
+    <string name="settings_ear">拔出耳机暂停</string>
+    <string name="settings_update">检查更新</string>
+
+    <string name="settings_quit">退出</string>
+    <string name="query_retry">网络不给力哦，请重试</string>
+    <string name="query_nointernet">无可用网络连接，去设置吗？</string>
+    <string name="query_quit">确认要离开吗？</string>
+    <string name="current_song">易听 - 当前曲目</string>
+    <string name="current_version">当前版本号：</string>
+    <string name="new_version">最新版本号：</string>
+    <string name="update_notice">发现新版本，是否升级？</string>
+    <string name="update_latest">当前是最新版本</string>
+    <string name="download_start">开始下载</string>
+    <string name="download_success">下载成功</string>
+
+    <string name="download_progress">下载进度</string>
+    <string name="download_file">正在下载文件</string>
+    <string name="refresh_list">正在刷新播放列表，请稍后...</string>
+    <string name="title_lrc">歌词播放</string>
+    <string name="title_list">本地列表</string>
+    <string name="title_playing_list">当前播放列表</string>
+    <string name="note_circleall">全部循环</string>
+    <string name="note_circleone">单曲循环</string>
+    <string name="note_random">随机播放</string>
+    <string name="sdcard_not_ready">未发现SD卡或SD正在被占用，请关闭USB存储模式或拔掉USB线再试。</string>
+
+ 
+    <string name="query_connect">请联网检测是否有更新</string>
+    <string name="menu_connect">联网检测</string>
+    <string name="menu_exit">退出</string>
+    <string name="Have_been_see">已观看</string>
+    <string name="Download_again">文件已被删除，请重新下载！</string>
+
+    <string name="loading_wait">载入中，请稍候...</string>
+    <string name="app_installed">已安装</string>
+    <string name="hint">提示</string>
+</resources>

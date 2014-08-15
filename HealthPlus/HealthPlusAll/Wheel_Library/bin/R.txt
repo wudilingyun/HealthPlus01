@@ -1,0 +1,5 @@
+int drawable age_edit_wheel_bg 0x7f020000
+int drawable hp_w_targetcountbg 0x7f020001
+int drawable hp_w_targetcountcurbg 0x7f020002
+int drawable wheel_bg 0x7f020003
+int drawable wheel_val 0x7f020004

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/health_plus_setting_about_version_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/wo_about_version_margin_top"
+                android:text="版本：1.0.0"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/health_plus_font_size_1" />
+
+            <ImageView
+                android:id="@+id/health_plus_setting_about_logo_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/health_plus_setting_about_version_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/wo_about_logo_margin_top"
+                android:src="@drawable/health_plus_logo" />
+
+            <TextView
+                android:id="@+id/health_plus_setting_about_text1_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/health_plus_setting_about_logo_iv"
+                android:layout_marginTop="@dimen/wo_about_text1_margin_top"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="您的健康管理好帮手"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/health_plus_font_size_3" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_below="@id/health_plus_setting_about_text1_tv"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:layout_marginTop="@dimen/wo_about_divider_margin_top"
+                android:background="#44ffffff" />
+
+            <TextView
+                android:id="@+id/cloudDoctor_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/health_plus_setting_about_text1_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/wo_about_tv1_margin_top"
+                android:text="酷爱健康由云狐时代公司权威发布"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/health_plus_font_size_2" />
+
+            <TextView
+                android:id="@+id/health_plus_setting_about_text2_tv"
+                style="@style/textview_style_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cloudDoctor_tv1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/wo_about_text2_margin_top"
+                android:text="您的私人健康顾问"
+                android:textColor="#99ff76"
+                android:textSize="@dimen/health_plus_font_size_3" />
+
+            <TextView
+                android:id="@+id/health_plus_setting_about_text4_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/health_plus_setting_about_text2_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/wo_about_text4_margin_top"
+                android:text="@string/setting_gamecenter"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/health_plus_font_size_2" />
+
+            <TextView
+                android:id="@+id/health_plus_setting_about_text5_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/health_plus_setting_about_text4_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/wo_about_text5_margin_top"
+                android:text="@string/right_text_english"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/health_plus_font_size_2" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

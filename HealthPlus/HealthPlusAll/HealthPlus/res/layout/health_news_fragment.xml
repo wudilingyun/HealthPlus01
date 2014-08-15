@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/health_news_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/news_gridview_horizontal_spacing"
+        android:layout_marginRight="@dimen/news_gridview_horizontal_spacing"
+        android:horizontalSpacing="@dimen/news_gridview_horizontal_spacing"
+        android:listSelector="@null"
+        android:numColumns="2"
+        android:paddingBottom="12dp"
+        android:paddingTop="20dp"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>

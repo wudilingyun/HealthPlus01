@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_setting_selector" >
+
+        <ImageView
+            android:id="@+id/health_plus_setting_list_item_icon_iv"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/shop_search_order_icon" />
+
+        <TextView
+            android:id="@+id/health_plus_setting_list_item_name_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="abc"
+            android:layout_marginLeft="10dip"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/health_plus_setting_list_item_arrow_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dip"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/healthplus_wo_item_arrow" />
+    </LinearLayout>
+
+</RelativeLayout>

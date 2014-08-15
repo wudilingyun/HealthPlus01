@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myhealth_test_bac"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/health_title"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        layout="@layout/include_header" />
+
+    <include
+        android:id="@+id/header_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/health_title"
+        layout="@layout/include_header_progress"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/sum_rv"
+        android:layout_below="@+id/header_progress"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="中医体质判定表"
+            android:textColor="@drawable/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="根据最近三个月的体验和感觉回答以下问题，孕妇及16岁以下青少年不建议使用"
+            android:textColor="@drawable/Grey"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/tizhi_list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="0.5dp"
+            android:drawSelectorOnTop="false"
+            android:focusable="false"
+            android:listSelector="#00000000"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sum_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/myhealth_test_bac_submmit"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="42dp"
+        android:paddingRight="42dp"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/submit_butt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_myhealth_test_summbit_selector"
+            android:padding="10dp"
+            android:text="提交"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/health_plus_font_size_2"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

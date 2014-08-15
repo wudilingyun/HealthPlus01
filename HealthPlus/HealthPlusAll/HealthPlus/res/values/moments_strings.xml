@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="strnomoments">亲，还没有记录</string>
+    <string name="straddfriend">加好友，扩大您的健康圈</string>
+    <string name="momentstitle">健康圈</string>
+    <string name="momentsfriendlist">好友列表</string>
+    <string name="momentsnewfriendlist">新康友</string>
+    <string name="momentsphotograph">拍照</string>
+    <string name="momentsselectfromalbum">从相册中选择</string>
+    <string name="momentsthismomentsthinking">这一刻的想法&#8230;</string>
+    <string name="searchphone">搜号码</string>
+    <string name="addcontacts">添加手机联系人</string>
+    <string name="searchusernameandphone">用户名/手机号</string>
+    <string name="searchbutton">查找</string>
+    <string name="addfriend">添加朋友</string>
+    <string name="browsemoments">查看朋友健康圈</string>
+    <string name="searchfriend">查找朋友</string>
+    <string name="add">添加</string>
+    <string name="invite">邀请</string>
+    <string name="added">已添加</string>
+    <string name="avatar">头像</string>
+    <string name="savemoments">发送</string>
+    <string name="changecover">更换相册封面</string>
+    <string name="cameraonecover">拍一张</string>
+    <string name="albumcover">从手机相册选择</string>
+    <string name="contact_state">联系人状态</string>
+    <string name="contact_phone">联系人电话</string>
+    <string name="contact_name">联系人姓名</string>
+    <string name="contact_yysid">联系人yysId</string>
+    <string name="str_vertical">竖线</string>
+    <string name="str_content_icon">内容标志</string>
+    <string name="str_time">13&#8211;07&#8211;15</string>
+    <string name="mymoments">好友详情</string>
+    <string name="upload10minutues">10分钟前上传</string>
+    <string name="moments_support">赞</string>
+    <string name="moments_comment">评论</string>
+    <string name="nonewfriend">没有新康友</string>
+
+</resources>

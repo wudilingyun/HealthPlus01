@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="bottom" >
+
+    <LinearLayout
+        android:id="@+id/age_edit_ok_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#2f3336"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/age_edit_ok_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/health_plus_find_submit_btn_selector"
+            android:text="@string/OK"
+            android:textColor="@color/hp_w_header_view_white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/age_edit_wv_ll"
+        android:layout_width="match_parent"
+        android:layout_height="170dip"
+        android:layout_above="@id/age_edit_ok_ll"
+        android:background="#363f3e"
+        android:orientation="horizontal" >
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/age_edit_year_wv"
+            android:layout_width="fill_parent"
+            android:layout_height="170dip"
+            android:layout_gravity="center"
+            android:layout_weight="3" />
+
+        <kankan.wheel.widget.WheelView
+            android:id="@+id/age_edit_month_wv"
+            android:layout_width="fill_parent"
+            android:layout_height="170dip"
+            android:layout_gravity="center"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="170dip"
+        android:layout_above="@id/age_edit_ok_ll"
+        android:background="@drawable/age_edit_wheel_bg"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/age_edit_wv_ll"
+        android:background="#f7f7f5"
+        android:gravity="center|left"
+        android:paddingBottom="10dip"
+        android:paddingLeft="8dip"
+        android:paddingTop="10dip"
+        android:text="设置年龄"
+        android:textColor="#2f3336"
+        android:textSize="20sp" />
+
+</RelativeLayout>

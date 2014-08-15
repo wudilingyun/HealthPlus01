@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f7f7f5" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/health_plus_input_bg0"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/health_plus_modify_pwd_old_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/health_plus_pwd_normal" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="22dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="#88C3C3C3" />
+
+                    <EditText
+                        android:id="@+id/health_plus_modify_pwd_old_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@null"
+                        android:hint="旧密码"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="#838383"
+                        android:textColorHint="#C3C3C3"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#C3C3C3" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/health_plus_modify_pwd_new_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/health_plus_pwd_normal" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="22dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="#88C3C3C3" />
+
+                    <EditText
+                        android:id="@+id/health_plus_modify_pwd_new_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@null"
+                        android:hint="新密码"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="#838383"
+                        android:textColorHint="#C3C3C3"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="#C3C3C3" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/health_plus_modify_pwd_confirm_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:src="@drawable/health_plus_pwd_normal" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="22dip"
+                        android:layout_marginLeft="10dip"
+                        android:background="#88C3C3C3" />
+
+                    <EditText
+                        android:id="@+id/health_plus_modify_pwd_confirm_et"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dip"
+                        android:background="@null"
+                        android:hint="再次输入新密码"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="#838383"
+                        android:textColorHint="#C3C3C3"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/health_plus_modify_pwd_notice_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="5.0dip"
+                android:text="提示：密码由6-12位英文字母、数字或符号组成。"
+                android:textColor="#C3C3C3"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/health_plus_modify_pwd_submit_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="48dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/health_plus_find_submit_btn_selector"
+                android:text="提交"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

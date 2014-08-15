@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f5" >
+
+    <LinearLayout
+        android:id="@+id/personal_info_uname_edit_input_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="46dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginTop="16dip"
+        android:background="@drawable/personal_info_edit_input_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/personal_info_uname_edit_et"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:singleLine="true"
+            android:maxLength="31"
+            android:textColor="#000000"
+            android:textColorHint="#C3C3C3"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/personal_info_uname_edit_clear_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/personal_info_edit_clear_btn" />
+    </LinearLayout>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginTop="5dip"
+        android:layout_below="@id/personal_info_uname_edit_input_ll"
+        android:text="提示:4-30个中英文或数字"/>
+
+</RelativeLayout>

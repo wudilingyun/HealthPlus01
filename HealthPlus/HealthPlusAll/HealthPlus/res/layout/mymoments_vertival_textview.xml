@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="@color/bg_alpha" />
+
+    <TextView
+        android:id="@+id/tv_timed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/str_time"
+        android:textSize="@dimen/health_plus_font_size_3" 
+        android:textColor="#FFFFFF"/>
+    <TextView 
+        android:id="@+id/tv_timeym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/str_time"
+        android:textSize="@dimen/health_plus_font_size_1"
+        android:textColor="#FFFFFF"/>
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="@color/bg_alpha" />
+
+</LinearLayout>

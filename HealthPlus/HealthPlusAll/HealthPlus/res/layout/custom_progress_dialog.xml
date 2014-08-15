@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#363636"
+        android:minWidth="260dip"
+        android:minHeight="70dp" >
+
+        <ImageView
+            android:id="@+id/easygame_progress_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@anim/wait_dialog_round" />
+
+        <TextView
+            android:id="@+id/easygame_progress_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/easygame_progress_image"
+            android:text="Message"
+            android:textColor="@color/hp_w_header_view_white"
+            android:textSize="16sp" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

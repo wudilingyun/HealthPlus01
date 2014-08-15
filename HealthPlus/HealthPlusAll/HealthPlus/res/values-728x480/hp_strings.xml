@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- 登陆界面 -->
+    <string name="health_plus_login_marginbottom">125</string>
+
+</resources>

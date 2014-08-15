@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/friendlist_title"
+        layout="@layout/include_header" />
+
+    <LinearLayout
+        android:id="@+id/searchfriendlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ececec"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="20dp" >
+
+        <EditText
+            android:id="@+id/searchfriendedittext"
+            android:layout_width="0dp"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_normal_focus"
+            android:hint="@string/searchfriend" />
+
+        <Button
+            android:id="@+id/searchfriendbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="right"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/button_comment_submit"
+            android:maxWidth="70dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/searchbutton"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/friendlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#dfdfde"
+        android:dividerHeight="0.6dip"
+        android:headerDividersEnabled="false"
+        android:listSelector="#00000000" >
+    </ListView>
+     <TextView 
+        android:id="@+id/empty_friend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:text="还没有朋友"/>
+
+</LinearLayout>

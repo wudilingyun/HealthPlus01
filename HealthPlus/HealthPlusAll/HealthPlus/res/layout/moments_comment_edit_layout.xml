@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/distach_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:background="#ececec"
+    android:minHeight="30dp"
+    android:padding="6dp" >
+
+    <com.rockerhieu.emojicon.EmojiconEditText
+        android:id="@+id/moments_comment_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/edittext_default"
+        android:hint="发表评论"
+        android:maxLines="3"
+        android:textColor="#c3c3c3"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/moments_comment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_comment_submit"
+        android:maxWidth="70dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="发送"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</FrameLayout>

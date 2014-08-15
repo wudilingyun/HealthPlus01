@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/momentsmain_title"
+        layout="@layout/include_header" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/momentslistfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-0.6dp"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="#dddddd"
+        android:dividerHeight="0.6dip"
+        ptr:ptrHeaderBackground="#414141"
+        ptr:ptrHeaderTextColor="#ffffff" >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+    <LinearLayout
+        android:id="@+id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/momentsheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/cover"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/moments_main_cover_height"
+                android:clickable="true"
+                android:background="@drawable/moments_cover_default"
+                android:scaleType="centerCrop" />
+
+            <com.vee.healthplus.widget.RoundImageView
+                android:id="@+id/mymoments"
+                android:layout_width="80dip"
+                android:layout_height="80dip"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/cover"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="-40dip"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/myhealth_users_avatar"
+                imagecontrol:border_outside_color="#eaeaea"
+                imagecontrol:border_thickness="2dp" 
+               android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/myname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cover"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="-40dip"
+                android:layout_toLeftOf="@id/mymoments"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="@dimen/health_plus_font_size_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nomoments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/nomomentsinside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/strnomoments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/strnomoments"
+                    android:textColor="#9d9d9d"
+                    android:textSize="@dimen/health_plus_font_size_2" />
+
+                <TextView
+                    android:id="@+id/straddfriend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/straddfriend"
+                    android:textColor="#9d9d9d"
+                    android:textSize="@dimen/health_plus_font_size_2" />
+
+                <ImageView
+                    android:id="@+id/addfriend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:src="@drawable/moments_add_selector" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

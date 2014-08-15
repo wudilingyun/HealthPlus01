@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 心跳 -->
+    <string name="heartbeat_txt">0</string>
+    <string name="heartbeat_init_unit">心跳/分钟</string>
+    <!-- 健康测试 -->
+    <string name="healthexam_download">加载中....</string>
+    <string name="healthexam_title">全面关注您的健康状况</string>
+    <string name="toast_exam">请将所有测试题回答完毕</string>
+    <string name="toast_data">数据加载异常</string>
+    <string name="split_string">|测试</string>
+    <string name="title">健康测试</string>
+    <string name="progress_title">测试进度</string>
+    <string name="next_button">下一题</string>
+    <string name="last_button">上一题</string>
+    <string name="putin">提交</string>
+    <string name="toast_first">已到第一题</string>
+    <string name="result_title">测试结果</string>
+    <string name="currt_position">你在这里</string>
+    <string name="score_rule">评分标准</string>
+    <string name="you_score">您的得分 :</string>
+    <string name="you_content">|测试报告</string>
+    <string name="foot_hint">温馨提示：请根据最近三个月的感受和体验回答一下问题，测试结果仅供参考 ！</string>
+    <string name="exam_list_title">全面关注您的健康状况</string>
+    <string name="tiwen">体温</string>
+    <string name="xinlv">心率</string>
+    <string name="xueyang">血氧</string>
+    <string name="zhifang">脂肪</string>
+    <string name="ceshi">测试</string>
+    <string name="zixun">资讯</string>
+    <string name="yajiankang">亚健康测试</string>
+    <string name="tizhiceshi">体质测试</string>
+    <string name="shuimianceshi">睡眠测试</string>
+    <string name="xuezhi">血脂检测</string>
+    <string name="tangniaobing">血糖检测</string>
+    <string name="jianfei">减肥测试</string>
+    <string name="xinli">心理测试</string>
+    <string name="heart_hint_1">请将食指按住摄像头，点击开始测试</string>
+    <string name="heart_select_title">选择你要测试的设备</string>
+    <string name="heart_select_1">手环</string>
+    <string name="heart_select_2">手表</string>
+    <string name="heart_select_3">手机</string>
+    <string name="heart_result_title">你的心率 ： </string>
+    <string name="heart_result_1">偏低 </string>
+    <string name="heart_result_2">正常 </string>
+    <string name="heart_result_3">偏高 </string>
+    <string name="heart_txt_hint">检测示意图 </string>
+    <string name="heart_count_unit">BPM </string>
+    <string name="user_resgiter_edit">0123456789abcdefghijkl@mnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+	    <string name="user_password_toast">密码格式不符合 </string>
+	    <string name="user_password_length_toast">密码长度不符合 </string>
+	    <string name="user_name_toast">用户名格式不符合 </string>
+	    <string name="user_name_length_toast">用户名长度应大于5位</string>
+	    
+	    <string name="yundong">健身减肥</string>
+	    <string name="jianya">疾病预防</string>
+	    <string name="yingyang">养生堂</string>
+	    <string name="xiuxi">轻松一刻</string>
+	    <string name="yongyao">育儿百科</string>
+	    <string name="shejiao">紧急救护</string>
+	    <string name="baojian">两性话题</string>
+	    <string name="bingzheng">真相大白</string>
+	    <string name="jijiu">急救</string>
+	    <string name="tizhi">体质</string>
+	    
+	    
+	       <string name="egyundong">sport</string>
+	    <string name="egjianya">decompression</string>
+	    <string name="egyingyang">nutrition</string>
+	    <string name="egxiuxi">rest</string>
+	    <string name="egyongyao">medication</string>
+	    <string name="egshejiao">commerce</string>
+	    <string name="egbaojian">healthcare</string>
+	    <string name="egbingzheng">disease</string>
+	    <string name="egjijiu">firstaid</string>
+	    <string name="egtizhi">physique</string>
+	    
+</resources>

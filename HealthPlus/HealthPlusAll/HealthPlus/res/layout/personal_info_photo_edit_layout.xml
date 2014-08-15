@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/photo_edit_take_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/photo_edit_item_bg_selector"
+        android:text="拍照"
+        android:textColor="#9d9d9d"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#e3e3e3" />
+
+    <Button
+        android:id="@+id/photo_edit_pick_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/photo_edit_item_bg_selector"
+        android:text="照片"
+        android:textColor="#9d9d9d"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dip"
+        android:background="#f4f4f4" />
+    
+    <Button
+        android:id="@+id/photo_edit_cancel_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/photo_edit_item_bg_selector"
+        android:text="取消"
+        android:textColor="#9d9d9d"
+        android:textSize="16sp" />
+
+</LinearLayout>

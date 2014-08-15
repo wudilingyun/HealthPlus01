@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 登陆注册界面 -->
+    <dimen name="health_plus_logo_margin_bottom">180dip</dimen>
+    <dimen name="health_plus_agree_margin_left">15dip</dimen>
+    <!-- 首页 -->
+    <dimen name="myhealth_photo_margin_top">30dip</dimen>
+    <!-- 好友 -->
+    <dimen name="moments_list_item_font_size">18sp</dimen>
+    <dimen name="moments_search_phone_btn_font_size">16sp</dimen>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 登陆注册界面 -->
+    <dimen name="health_plus_logo_margin_bottom">110dip</dimen>
+    <dimen name="health_plus_agree_margin_left">25dip</dimen>
+    
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_new_moments">NewMomentsActivity</string>
+    <string name="title_activity_my_moments">MyMomentsActivity</string>
+    <string name="title_activity_add_friend">AddFriendActivity</string>
+    <string name="title_activity_search_phone">SearchPhoneActivity</string>
+    <string name="title_activity_add_contscts">AddContsctsActivity</string>
+    <string name="title_activity_friend_detail">FriendDetailActivity</string>
+    <string name="title_activity_friend_moments">FriendMomentsActivity</string>
+    <string name="title_activity_friend_list">FriendListActivity</string>
+    <string name="title_activity_new_friend_list">NewFriendListActivity</string>
+    <string name="title_activity_moments_main">MomentsMainActivity</string>
+    <string name="title_activity_cover_edit">CoverEditActivity</string>
+
+</resources>

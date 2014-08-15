@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/news_list_item_height" >
+
+        <com.vee.healthplus.widget.RoundImageView
+            android:id="@+id/imageView_healthnews"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="50dip"
+            android:paddingBottom="50dip"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/newstitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageView_healthnews"
+            android:lines="1"
+            android:text="2013.4.20•正在进行"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/health_plus_font_size_2" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="1"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/health_textsize_4"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageView_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/newstitle"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/comment"
+            android:background="@drawable/pinglun"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_icon"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:lines="1"
+            android:maxEms="6"
+            android:text=""
+            android:textColor="#55ffffff"
+            android:textSize="@dimen/health_plus_font_size_1" />
+    </RelativeLayout>
+
+</RelativeLayout>

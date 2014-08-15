@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myhealth_test_bac"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/health_plus_setting_lv"
+        android:layout_marginTop="20dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/setting_list_selector"
+        android:divider="@null"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"/>
+
+</LinearLayout>

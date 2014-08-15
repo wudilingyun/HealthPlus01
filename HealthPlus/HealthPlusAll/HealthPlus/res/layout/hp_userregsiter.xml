@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hp_userreg_usernamedes"
+            android:id="@+id/userNameDes"
+            style="@style/userregister_accountstitle"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/userregeditview">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hp_userreg_accounts"
+                style="@style/userregister_accounts" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="@string/hp_userreg_accountshint"
+                style="@style/userreg_accountscontent"
+                android:id="@+id/userName_et" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/userregeditview">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hp_userreg_passworld"
+                style="@style/userregister_accounts" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                style="@style/userreg_accountscontent"
+                android:hint="@string/hp_userreg_passworldhint"
+                android:background="@android:color/transparent"
+                android:id="@+id/userPwd_et" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hp_userreg_nickdes"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            style="@style/userregister_accountstitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/userregeditview">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hp_userreg_nick"
+                style="@style/userregister_accounts" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/hp_userreg_nickhint"
+                android:background="@android:color/transparent"
+                style="@style/userreg_accountscontent"
+                android:id="@+id/userNick_et" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:id="@+id/cannel_btn"
+                android:layout_marginRight="10dp"
+                android:text="@string/CANCLE"
+                android:textSize="24sp"
+                android:textColor="@color/hp_w_target_week"
+                android:background="@drawable/userregbtn_selector" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/hp_userreg_register"
+                android:id="@+id/register_btn"
+                android:layout_weight="2"
+                android:textSize="24sp"
+                android:background="@drawable/hp_w_target_setbtn_selector"
+                android:textColor="@color/hp_w_header_view_white"
+                android:layout_gravity="left|center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/test_result_background" >
+
+    <TextView
+        android:id="@+id/text_test_type"
+        style="@style/text_style_result_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="11.0sp"
+        android:gravity="center"
+        android:text="测试结果" />
+
+    <RelativeLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" >
+
+        <ImageView
+            android:id="@+id/image_result_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/test_result_gradient_ecg" />
+
+        <Button
+            android:id="@+id/btn_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/image_result_wheel"
+            android:layout_marginTop="350.0dip"
+            android:background="@drawable/test_result_btn_stat" />
+
+        <Button
+            android:id="@+id/btn_retest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/image_result_wheel"
+            android:layout_marginTop="350.0dip"
+            android:background="@drawable/test_result_btn_retest" />
+
+        <ImageView
+            android:id="@+id/image_middle_wheel_pointer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/test_result_arrow_green" />
+
+        <TextView
+            android:id="@+id/text_test_result"
+            style="@style/text_style_test_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="normal" />
+
+        <TextView
+            android:id="@+id/text_bp_test_result"
+            style="@style/text_style_test_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_test_result_small"
+            style="@style/text_style_test_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_no_test_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="no"
+            android:textColor="@color/gray"
+            android:textSize="14.0sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_left_action_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_reminder"
+            style="@style/text_style_nine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/test_result_btn_reminder"
+            android:gravity="bottom|center"
+            android:text="reminder" />
+
+        <Button
+            android:id="@+id/btn_share"
+            style="@style/text_style_nine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/test_result_btn_share"
+            android:gravity="bottom|center"
+            android:text="share" />
+
+        <Button
+            android:id="@+id/btn_comment"
+            style="@style/text_style_nine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/test_result_btn_comment"
+            android:gravity="bottom|center"
+            android:text="comment" />
+
+        <Button
+            android:id="@+id/btn_call"
+            style="@style/text_style_nine_grey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/test_result_btn_call"
+            android:gravity="bottom|center"
+            android:text="call"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

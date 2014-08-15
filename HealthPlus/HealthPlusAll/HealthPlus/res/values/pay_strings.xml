@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+	<string name="confirm_install_hint">"安装提示"</string>	
+	<string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+	
+	
+	<string name="Ensure">"确定"</string>
+	<string name="Cancel">"取消"</string>
+	<string name="check_sign_failed">您的订单信息已被非法篡改。</string> 
+	
+	<string name="recharge_success">支付成功</string> 
+	<string name="dialogTitle">提示</string>
+	<string name="recharge_fail_control">操作未完成</string>
+	 <string name="partner_error">缺少partner或者seller</string>
+	 <string name="recharge_ing">正在支付</string>
+	 
+	 <string name="soapUtils">分析服务器返回数据错误,请检查Android_SoapUtils类,或者核实数据</string>
+	
+	<string name="netError">网络异常,请检查网络</string>
+	<string name="unknownError">出现未知错误</string>
+	<string name="accountError">请求服务器出现未知错误</string>
+	<string name="parserJsonError">解析JSON异常</string>	
+</resources>

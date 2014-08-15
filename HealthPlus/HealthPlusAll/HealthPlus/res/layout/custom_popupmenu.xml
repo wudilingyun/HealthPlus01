@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/hp_main_padding_small"
+    android:layout_marginLeft="@dimen/hp_main_padding_small"
+    android:layout_marginRight="@dimen/hp_main_padding_small"
+    android:layout_marginTop="60dp"
+    android:background="@drawable/hp_main_popmenu_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/hp_main_padding_small"
+    android:paddingRight="@dimen/hp_main_padding_small" >
+
+    <TextView
+        android:id="@+id/popupmenu_header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/hp_main_padding_few"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textColor="@color/hp_w_target_title"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/hp_main_padding_few"
+        android:layout_marginRight="@dimen/hp_main_padding_few"
+        android:background="@color/hp_w_target_title" />
+
+    <ListView
+        android:id="@+id/popupmenu_content"
+        style="@style/list_style_popmenu"
+        android:layout_height="300dp"
+        android:layout_marginLeft="@dimen/hp_main_padding_few"
+        android:layout_marginRight="@dimen/hp_main_padding_few" />
+
+</LinearLayout>

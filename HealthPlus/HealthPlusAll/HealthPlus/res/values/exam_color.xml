@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- zyl -->
+    <drawable name="SeaGreen1">#54FF9F</drawable>
+	
+
+    <!-- 心跳 -->
+
+    <drawable name="vision_pub_color">#ff14a180</drawable>
+    <drawable name="heart_count">#ff474747</drawable>
+     <drawable name="normao_bac">#32494e</drawable>
+     <drawable name="start_bac">#25acca</drawable>
+	
+    <color name="statistics_total">#ff1a86f3</color>
+    <color name="heart_table">#0b6376</color>
+
+    <!-- 考试 -->
+    <color name="statistics_right">#ff6fb41c</color>
+    <color name="statistics_wrong">#fffe519f</color>
+      <color name="normal_color">#ff373737</color>
+      
+      <!-- 新闻 -->
+         <color name="loading_bac">#b5b5b5</color>
+        
+</resources>

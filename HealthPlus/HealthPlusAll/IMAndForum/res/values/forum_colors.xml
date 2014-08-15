@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="bg_gray">#ffecedef</color>
+    <color name="bg_darkgray">#40808080</color>
+    <color name="listview_bg_gray">#ffecedef</color>
+    <color name="listview_txt_gray">#ff8a8a8a</color>
+    <color name="checkbox_fg_gray">#ff8a8a8a</color>
+    <color name="analysis_text_dark">#ff6c6c6c</color>
+</resources>
